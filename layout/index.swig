@@ -3,10 +3,10 @@
 {% block content %}
     <div class="al_index_background dis_flex_center al_full_cover">
         <div class="al_pos_ab al_letter al_index_background_letter">
-            {{ config.bio|default('A Simple Theme')|first|upper }}
+            {{ config.bio|default("jolpizza's blog")|first|upper }}
         </div>
         <h2 class="al_index_background_bio">
-            {{ config.bio|default('A Simple Theme') }}
+            {{ config.bio|default("jolpizza's blog") }}
         </h2>
     </div>
 
